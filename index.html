@@ -197,13 +197,13 @@
   <div class="queries-secondblock">
     <div class="queries-secondblock-form">
       <div class="queries-secondblock-form-1">
-        <input  placeholder="Your name" name="comment">
+        <input id="name"  placeholder="Your name" name="comment">
       </div>
       <div class="queries-secondblock-form-2">
-          <input placeholder="Your number" name="tel">
+          <input id="number" placeholder="Your number" name="tel">
       </div>
       <div class="queries-secondblock-form-3">
-          <input type="submit" value="Get at call">
+          <input id="submit" type="submit" value="Get at call">
       </div>
     </div>
   </div>
@@ -271,14 +271,17 @@
   </div>
 </div>
   <div class="contacts-two">
-    <div class="contacts-two-block">
-      <div class="contacts-two-block-1">
-          <input placeholder="Your e-mail">
-      </div>
-      <div class="contacts-two-block-2">
-          <input type="submit" value="Subscribe">
-        </div>
-    </div>
+    <form action="/mail.php" method="POST">
+        <div class="contacts-two-block">
+            <div class="contacts-two-block-1">
+                <input name="user_email" placeholder="Your e-mail">
+            </div>
+            <div class="contacts-two-block-2">
+                <input type="submit" value="Subscribe">
+              </div>
+          </div>
+    </form>
+    
    <div class="contacts-two-social">
   <a href="#"><div class="contacts-two-social-fb" id="circle1-1"><i class="fab fa-facebook-f"></i></div></a>
   <a href="#"><div class="contacts-two-social-tw" id="circle1-2"><i class="fab fa-twitter"></i></div></a>

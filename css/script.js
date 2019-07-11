@@ -47,3 +47,8 @@ let j = 0;
         main_p.innerHTML = main_textsp[i];
     });
 
+
+
+
+
+
